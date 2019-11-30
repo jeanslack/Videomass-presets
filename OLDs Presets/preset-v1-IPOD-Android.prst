@@ -1,0 +1,10 @@
+[
+    {
+        "Name": "Video per iPod e iPhone",
+        "Description": "Produces compatible video conversions for iPod/iPhone",
+        "First_pass": "-acodec aac -ab 96k -ac 2 -vcodec libx264 -vpre ipod320 -vf scale=480:-1 -crf 22",
+        "Second_pass": "",
+        "Supported_list": "",
+        "Output_extension": "mp4"
+    }
+]
