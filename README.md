@@ -12,3 +12,6 @@ Simple..
 * You should now see the presets you have loaded by the drop-down menu.
 
 ## How can i contribute?
+By creating a [Pull requests](https://github.com/jeanslack/Videomass-presets/pulls) or
+or by asking me to insert hyperlinks pointing to your presets or profiles 
+or to your website or github page.
