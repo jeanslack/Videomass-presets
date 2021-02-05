@@ -1,0 +1,12 @@
+# encoding: utf-8
+Videomass-Presets
+Author: Gianluca (jeanslack) Pernigotto
+Copyright: (c) Gianluca Pernigotto 2021
+License: GPL3
+
+Change make on Videomass presets 
+
++------------------------------------+
+Feb 5, 2021 V0.3
+
+  * Added Video-Repair preset
