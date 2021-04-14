@@ -4,7 +4,14 @@ Author: Gianluca (jeanslack) Pernigotto
 Copyright: (c) Gianluca Pernigotto 2021
 License: GPL3
 
-Change make on Videomass presets 
+Change make on Videomass presets
+
++------------------------------------+
+April 14, 2021 V0.5
+
+  * Removed Audio_normalization preset (not more compatible with Videomass 3.4.1)
+  * New Audio_removing_from_video preset
+  * New Merging_audio_and_video preset
 
 +------------------------------------+
 Mar 31, 2021 V0.4
