@@ -7,6 +7,11 @@ License: GPL3
 Change make on Videomass presets
 
 +------------------------------------+
+March 08, 2022 V0.6
+
+  * Added NVidia accelerated video encoding, thanks to @johannesdedoper
+
++------------------------------------+
 April 14, 2021 V0.5
 
   * Removed Audio_normalization preset (not more compatible with Videomass 3.4.1)
