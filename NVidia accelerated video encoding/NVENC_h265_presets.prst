@@ -1,0 +1,178 @@
+[
+    {
+        "Name": "01-h265_nvenc 2600k audio aac",
+        "Description": "h265_nvenc 2600k audio aac",
+        "First_pass": "-nostdin -map 0 -vcodec hevc_nvenc -b:v 2600k -c:a aac -c:s copy",
+        "Second_pass": "",
+        "Supported_list": "",
+        "Output_extension": "mkv"
+    },
+    {
+        "Name": "02-h265_nvenc cq23 audio aac",
+        "Description": "h265_nvenc cq23 audio aac",
+        "First_pass": "-map 0 -vcodec hevc_nvenc -cq 23 -preset medium -c:a aac -c:s copy ",
+        "Second_pass": "",
+        "Supported_list": "",
+        "Output_extension": "mkv"
+    },
+    {
+        "Name": "03-h265_nvenc 2600k audio aac norm",
+        "Description": "h265_nvenc 2600k audio aac normalized",
+        "First_pass": "-nostdin -map 0 -vcodec hevc_nvenc -b:v 2600k -c:a aac -af loudnorm=I=-16:LRA=11:TP=-1.5 -c:s copy",
+        "Second_pass": "",
+        "Supported_list": "",
+        "Output_extension": "mkv"
+    },
+    {
+        "Name": "04-h265_nvenc cq23 audio aac norm",
+        "Description": "h265_nvenc cq23 audio aac normalized",
+        "First_pass": "-map 0 -vcodec hevc_nvenc -cq 23 -preset medium -c:a aac -af loudnorm=I=-16:LRA=11:TP=-1.5 -c:s copy ",
+        "Second_pass": "",
+        "Supported_list": "",
+        "Output_extension": "mkv"
+    },
+    {
+        "Name": "05-video_copy audio aac",
+        "Description": "copy video - only convert audio aac",
+        "First_pass": "-nostdin -map 0 -c:v copy -c:a libmp3lame -b:a 128k -c:s copy",
+        "Second_pass": "",
+        "Supported_list": "",
+        "Output_extension": "mkv"
+    },             
+    {
+        "Name": "06-video_copy audio aac norm",
+        "Description": "copy video - only convert audio aac normalized",
+        "First_pass": "-nostdin -map 0 -c:v copy -c:a libmp3lame -b:a 128k -af loudnorm=I=-16:LRA=11:TP=-1.5 -c:s copy",
+        "Second_pass": "",
+        "Supported_list": "",
+        "Output_extension": "mkv"
+    }, 
+    {
+        "Name": "07-h265_nvenc 2600k audio mp3 stereo",
+        "Description": "h265_nvenc 2600k audio mp3_128kb 2channel",
+        "First_pass": "-nostdin -map 0 -vcodec hevc_nvenc -b:v 2600k -c:a libmp3lame -b:a 128k -c:s copy",
+        "Second_pass": "",
+        "Supported_list": "",
+        "Output_extension": "mkv"
+    },
+    {
+        "Name": "08-h265_nvenc cq23 audio mp3 stereo",
+        "Description": "h265_nvenc 2600k audio mp3_128kb 2channel",
+        "First_pass": "-nostdin -map 0 -vcodec hevc_nvenc -cq 23 -preset medium -c:a libmp3lame -b:a 128k -c:s copy",
+        "Second_pass": "",
+        "Supported_list": "",
+        "Output_extension": "mkv"
+    },
+    {
+        "Name": "09-h265_nvenc 2600k audio mp3 stereo norm",
+        "Description": "h265_nvenc 2600k audio mp3_128kb 2channel normalized",
+        "First_pass": "-nostdin -map 0 -vcodec hevc_nvenc -b:v 2600k -c:a libmp3lame -b:a 128k -af loudnorm=I=-16:LRA=11:TP=-1.5 -c:s copy",
+        "Second_pass": "",
+        "Supported_list": "",
+        "Output_extension": "mkv"
+    },
+    {
+        "Name": "10-h265_nvenc cq23 audio mp3 stereo norm",
+        "Description": "h265_nvenc cq23  audio mp3_128kb 2channel normalized",
+        "First_pass": "-nostdin -map 0 -vcodec hevc_nvenc -cq 23 -preset medium -c:a libmp3lame -b:a 128k -af loudnorm=I=-16:LRA=11:TP=-1.5 -c:s copy",
+        "Second_pass": "",
+        "Supported_list": "",
+        "Output_extension": "mkv"
+    },
+    {
+        "Name": "11-video_copy audio mp3 stereo",
+        "Description": "copy video - only convert audio mp3_128kb 2channel",
+        "First_pass": "-nostdin -map 0 -c:v copy -c:a libmp3lame -b:a 128k -c:s copy",
+        "Second_pass": "",
+        "Supported_list": "",
+        "Output_extension": "mkv"
+    },
+    {
+        "Name": "12-video_copy audio mp3 stereo norm",
+        "Description": "copy video - only convert audio mp3_128kb 2channel normalized",
+        "First_pass": "-nostdin -map 0 -c:v copy -c:a libmp3lame -b:a 128k -af loudnorm=I=-16:LRA=11:TP=-1.5 -c:s copy",
+        "Second_pass": "",
+        "Supported_list": "",
+        "Output_extension": "mkv"
+    },
+    {
+        "Name": "13-h265_nvenc 2600k audio copy",
+        "Description": "h265_nvenc 2600k audio copy",
+        "First_pass": "-nostdin -map 0 -vcodec hevc_nvenc -b:v 2600k -c:a copy -c:s copy",
+        "Second_pass": "",
+        "Supported_list": "",
+        "Output_extension": "mkv"
+    },
+    {
+        "Name": "14-h265_nvenc cq23 audio copy",
+        "Description": "h265_nvenc 2600k audio copy",
+        "First_pass": "-nostdin -map 0 -vcodec hevc_nvenc -cq 23 -preset medium -c:a copy -c:s copy",
+        "Second_pass": "",
+        "Supported_list": "",
+        "Output_extension": "mkv"
+    },
+    {
+        "Name": "15-h265_nvenc 2600k audio PCM",
+        "Description": "h265_nvenc 2600k audio PCM",
+        "First_pass": "-nostdin -map 0 -vcodec hevc_nvenc -b:v 2600k -c:a pcm_s16le -c:s copy",
+        "Second_pass": "",
+        "Supported_list": "",
+        "Output_extension": "mkv"
+     },
+     {
+        "Name": "16-h265_nvenc 2600k audio vorbis",
+        "Description": "h265_nvenc 2600k audio vorbis",
+        "First_pass": "-nostdin -map 0 -vcodec hevc_nvenc -b:v 2600k -c:a libvorbis -aq 6 -ar 44100 -c:s copy",
+        "Second_pass": "",
+        "Supported_list": "",
+        "Output_extension": "mkv"
+    },
+    {
+        "Name": "17-h265_nvenc 2600k audio PCM norm",
+        "Description": "h265_nvenc 2600k audio PCM normalized",
+        "First_pass": "-nostdin -map 0 -vcodec hevc_nvenc -b:v 2600k -c:a pcm_s16le -af loudnorm=I=-16:LRA=11:TP=-1.5 -c:s copy",
+        "Second_pass": "",
+        "Supported_list": "",
+        "Output_extension": "mkv"
+    },  
+    {
+        "Name": "18-h265_nvenc 2600k audio vorbis norm",
+        "Description": "h265_nvenc 2600k audio vorbis normalized",
+        "First_pass": "-nostdin -map 0 -vcodec hevc_nvenc -b:v 2600k -c:a libvorbis -aq 6 -ar 44100 -af loudnorm=I=-16:LRA=11:TP=-1.5 -c:s copy",
+        "Second_pass": "",
+        "Supported_list": "",
+        "Output_extension": "mkv"
+    }, 
+    {
+        "Name": "19-video_copy audio PCM",
+        "Description": "copy video - only convert audio PCM",
+        "First_pass": "-nostdin -map 0 -c:v copy -c:a pcm_s16le -c:s copy",
+        "Second_pass": "",
+        "Supported_list": "",
+        "Output_extension": "mkv"
+     },   
+     {
+        "Name": "20-video_copy audio PCM norm",
+        "Description": "copy video - only convert audio PCM normalized",
+        "First_pass": "-nostdin -map 0 -c:v copy -c:a pcm_s16le -af loudnorm=I=-16:LRA=11:TP=-1.5 -c:s copy",
+        "Second_pass": "",
+        "Supported_list": "",
+        "Output_extension": "mkv"
+    },
+    {
+        "Name": "21-video_copy audio vorbis",
+        "Description": "copy video - only convert audio vorbis",
+        "First_pass": "-nostdin -map 0 -c:v copy -c:a libvorbis -aq 6 -ar 44100 -c:s copy",
+        "Second_pass": "",
+        "Supported_list": "",
+        "Output_extension": "mkv"
+    },
+    {
+        "Name": "22-video_copy audio vorbis norm",
+        "Description": "copy video - only convert audio vorbis normalized",
+        "First_pass": "-nostdin -map 0 -c:v copy -c:a libvorbis -aq 6 -ar 44100 -af loudnorm=I=-16:LRA=11:TP=-1.5 -c:s copy",
+        "Second_pass": "",
+        "Supported_list": "",
+        "Output_extension": "mkv"
+     }
+]
