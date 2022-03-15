@@ -7,6 +7,12 @@ License: GPL3
 Change make on Videomass presets
 
 +------------------------------------+
+March 15, 2022 V0.7
+
+  * Removed `-nostdin` from NVidia accelerated video encoding preset.
+  * Added new preset and profiles for embedding subtitles to video.
+
++------------------------------------+
 March 08, 2022 V0.6
 
   * Added NVidia accelerated video encoding, thanks to @johannesdedoper
