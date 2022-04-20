@@ -7,6 +7,15 @@ License: GPL3
 Change make on Videomass presets
 
 +------------------------------------+
+April 20, 2022 V0.8
+
+  Presets_supplied_with_Videomass
+  |
+  |-- * Removed `Pictures_from_Video.prst` due to incompatibilities with 
+  |     Videomass >= 4.0.1 .
+  |-- * Added `Create animated GIFs.prst`.
+
++------------------------------------+
 March 15, 2022 V0.7
 
   * Removed `-nostdin` from NVidia accelerated video encoding preset.
