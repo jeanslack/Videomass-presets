@@ -7,6 +7,15 @@ License: GPL3
 Change make on Videomass presets
 
 +------------------------------------+
+May 17, 2022 V0.9
+
+  Presets_supplied_with_Videomass
+  |
+  |-- * Added `Coding to DVD by GMJCZP.prst` #2
+  |
+  * Videomass-Presets Wiki page has been created.
+
++------------------------------------+
 April 20, 2022 V0.8
 
   Presets_supplied_with_Videomass

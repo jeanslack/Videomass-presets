@@ -1,5 +1,7 @@
 # Videomass-presets
-A collection of additional presets for the [Videomass](https://jeanslack.github.io/Videomass/) application
+A collection of additional presets for the [Videomass](https://jeanslack.github.io/Videomass/) application   
+
+Please also see the [wiki page](https://github.com/jeanslack/Videomass-presets/wiki) for more resources.
 
 ## How to use them?
 Since version 3.3.5, Videomass can manage the import and export of presets 
