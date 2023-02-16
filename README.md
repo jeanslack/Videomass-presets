@@ -13,7 +13,7 @@ To use new presets, follow the steps below.
 ### By Videomass Application
 
 * Launch the [Videomass](https://jeanslack.github.io/Videomass/) application.
-* Go to the menu bar > tools, then click on "Download the latest presets" .
+* Go to the menu bar > tools, then click on "Get the latest presets release" .
 * Open the folder where you chose to download the presets, then extract the tarball.
 * Go to the Presets Manager panel.
 * On the left side of the Presets box, click on the "Import preset" button or 

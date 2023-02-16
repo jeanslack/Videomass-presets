@@ -1,17 +1,26 @@
 # encoding: utf-8
 Videomass-Presets
 Author: Gianluca (jeanslack) Pernigotto
-Copyright: (c) Gianluca Pernigotto 2021
+Copyright: Gianluca Pernigotto 2023
 License: GPL3
 
 Change make on Videomass presets
 
 +------------------------------------+
+February 16, 2023 V0.11
+
+  * Updated Videomass presets.
+
+    |--------------------------------
+    | Presets_supplied_with_Videomass
+    |--------------------------------
+    |-- VP9 Video Encoding.prsr
+    |-- Coding to DVD by GMJCZP.prst
+
++------------------------------------+
 June 25, 2022 V0.10
 
   * Added `AV1 Video Encoding` preset
-
-+------------------------------------+
 
 +------------------------------------+
 May 17, 2022 V0.9
@@ -27,7 +36,7 @@ April 20, 2022 V0.8
 
   Presets_supplied_with_Videomass
   |
-  |-- * Removed `Pictures_from_Video.prst` due to incompatibilities with 
+  |-- * Removed `Pictures_from_Video.prst` due to incompatibilities with
   |     Videomass >= 4.0.1 .
   |-- * Added `Create animated GIFs.prst`.
 
