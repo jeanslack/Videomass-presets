@@ -14,8 +14,9 @@ February 16, 2023 V0.11
     |--------------------------------
     | Presets_supplied_with_Videomass
     |--------------------------------
-    |-- VP9 Video Encoding.prsr
+    |-- Video Encoding VP9-WebM.prsr
     |-- Coding to DVD by GMJCZP.prst
+    |-- Video effects.prst
 
 +------------------------------------+
 June 25, 2022 V0.10
