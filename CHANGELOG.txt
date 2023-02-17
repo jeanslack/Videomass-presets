@@ -7,9 +7,10 @@ License: GPL3
 Change make on Videomass presets
 
 +------------------------------------+
-February 16, 2023 V0.11
+February 17, 2023 V0.12
 
   * Updated Videomass presets.
+  * Added 1pass 4/3 16/9 to `Coding to DVD by GMJCZP.prst`
 
     |--------------------------------
     | Presets_supplied_with_Videomass
@@ -17,6 +18,7 @@ February 16, 2023 V0.11
     |-- Video Encoding VP9-WebM.prsr
     |-- Coding to DVD by GMJCZP.prst
     |-- Video effects.prst
+
 
 +------------------------------------+
 June 25, 2022 V0.10
