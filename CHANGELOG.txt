@@ -10,7 +10,7 @@ Change make on Videomass presets
 February 17, 2023 V0.12
 
   * Updated Videomass presets.
-  * Added 1pass 4/3 16/9 to `Coding to DVD by GMJCZP.prst`
+  * Added Metal-HTPC 1 pass 4/3 & 16/9 to `Coding to DVD by GMJCZP.prst`
 
     |--------------------------------
     | Presets_supplied_with_Videomass
