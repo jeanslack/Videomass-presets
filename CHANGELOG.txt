@@ -7,10 +7,11 @@ License: GPL3
 Change make on Videomass presets
 
 +------------------------------------+
-February 17, 2023 V0.12
+February 25, 2023 V0.13
 
   * Updated Videomass presets.
   * Added Metal-HTPC 1 pass 4/3 & 16/9 to `Coding to DVD by GMJCZP.prst`
+  * Added `Video Encoding AV1.prst` to coding AV1 (libaom-av1)
 
     |--------------------------------
     | Presets_supplied_with_Videomass
@@ -18,6 +19,7 @@ February 17, 2023 V0.12
     |-- Video Encoding VP9-WebM.prsr
     |-- Coding to DVD by GMJCZP.prst
     |-- Video effects.prst
+    |-- Video Encoding AV1.prst
 
 
 +------------------------------------+
