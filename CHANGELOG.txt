@@ -7,6 +7,19 @@ License: GPL3
 Change make on Videomass presets
 
 +------------------------------------+
+March 05, 2023 V0.14
+
+  * Improving Videomass presets.
+
+    |--------------------------------
+    | Presets_supplied_with_Videomass
+    |--------------------------------
+    |-- Video Encoding VP9-WebM.prsr
+    |-- Encoding_for_Devices.prst
+    |-- For_Archive_Collection.prst
+    |-- Video Encoding AV1.prst
+
++------------------------------------+
 February 25, 2023 V0.13
 
   * Updated Videomass presets.
