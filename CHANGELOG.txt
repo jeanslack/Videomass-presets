@@ -7,6 +7,16 @@ License: GPL3
 Change make on Videomass presets
 
 +------------------------------------+
+March 08, 2023 V0.16
+
+  * Improving Videomass presets.
+
+    |--------------------------------
+    | Presets_supplied_with_Videomass
+    |--------------------------------
+    |-- Video_Stabilizer.prst
+
++------------------------------------+
 March 05, 2023 V0.14
 
   * Improving Videomass presets.
