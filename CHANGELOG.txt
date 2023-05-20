@@ -7,6 +7,16 @@ License: GPL3
 Change make on Videomass presets
 
 +------------------------------------+
+May 20, 2023 V0.17
+
+  * Improving Videomass presets.
+
+    |--------------------------------
+    | Presets_supplied_with_Videomass
+    |--------------------------------
+    |-- Audio_removing_from_video.prst
+
++------------------------------------+
 March 08, 2023 V0.16
 
   * Improving Videomass presets.
