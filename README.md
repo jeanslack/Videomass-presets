@@ -14,8 +14,6 @@ the "Import group" button and follow the instructions that appear.
 * The new presets should appear in the drop-down menu.
 
 ## How can i contribute?
-If you want to contribute to this project and make public your useful presets that 
-you're already using on Videomass, take a look at [Guidelines for sharing Videomass presets](https://github.com/jeanslack/Videomass-presets/wiki/Guidelines-for-sharing-Videomass-presets)
 
 If you want to share your custom presets for Videomass, or improve existing ones, 
 take a look at [Guidelines for sharing Videomass presets](https://github.com/jeanslack/Videomass-presets/wiki/Guidelines-for-sharing-Videomass-presets).
