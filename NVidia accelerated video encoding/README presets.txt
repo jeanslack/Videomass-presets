@@ -14,3 +14,10 @@ The quality setting of 23 is better quality and again a sweet spot on quality/fi
 size but will most of time lead to a bigger filesize.
 
 Feel free to adjust the video and audio settings. 
+
+--------------------------------------------------
+
+UPDATE: Sun, 02 July 2023 (by jeanslack)
+
+Adding new presets for h265_nvenc. For more information see the following post:
+https://github.com/jeanslack/Videomass/issues/236

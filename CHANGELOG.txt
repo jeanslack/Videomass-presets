@@ -7,8 +7,10 @@ License: GPL3
 Change make on Videomass presets
 
 +------------------------------------+
-May 20, 2023 V0.17
+Jul 03, 2023 V0.18
 
+  * Updating NVidia accelerated video encoding preset, thanks to @johannesdedoper
+  * Added Davinci Resolve Linux preset, thanks to @robouden
   * Improving Videomass presets.
 
     |--------------------------------
