@@ -7,6 +7,15 @@ License: GPL3
 Change make on Videomass presets
 
 +------------------------------------+
+Jan 22, 2024 V0.19
+
+  * Included NVidia accelerated video encoding preset to Videomass Default Presets.
+  * Included Davinci Resolve Linux preset to Videomass Default Presets.
+  * Included AV1-libaom presets to Videomass Default Presets.
+  * Included AV1-libsvtav1 to Videomass Default Presets.
+  * Included NVidia accelerated video encoding to Videomass Default Presets
+
++------------------------------------+
 Jul 03, 2023 V0.18
 
   * Updating NVidia accelerated video encoding preset, thanks to @johannesdedoper
