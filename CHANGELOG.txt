@@ -7,6 +7,12 @@ License: GPL3
 Change make on Videomass presets
 
 +------------------------------------+
+Feb 24, 2024 V0.21
+
+  * File format (extension) changed from prst to json.
+  * Fixed `AV1-libsvtav1` preset with a compatible container for av1 (mkv not mp4)
+
++------------------------------------+
 Jan 22, 2024 V0.19
 
   * Included NVidia accelerated video encoding preset to Videomass Default Presets.
