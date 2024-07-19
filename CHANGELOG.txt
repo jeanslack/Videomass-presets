@@ -7,6 +7,11 @@ License: GPL3
 Change make on Videomass presets
 
 +------------------------------------+
+July 19, 2024 V0.24
+
+  * All profiles have been updated.
+
++------------------------------------+
 Feb 24, 2024 V0.21
 
   * File format (extension) changed from prst to json.
